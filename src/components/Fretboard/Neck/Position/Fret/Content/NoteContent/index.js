@@ -44,7 +44,7 @@ const NoteContent = ({ note, noteType, showEnharmonics }) => {
     : formatNote(note, noteType)
 
   return (
-    <div>{contentNote}</div>
+    <div style={{color: 'white'}}>{contentNote}</div>
   )
 }
 

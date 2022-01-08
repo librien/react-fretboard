@@ -7,7 +7,6 @@ const Label = styled.div`
   height: ${props => props.theme.dimensions.stringHeight}px;
   width: ${props => props.width}%;
   font-size: ${props => props.theme.fontSize}px;
-  color: ${props => props.theme.color};
 `
 
 /** @component */
